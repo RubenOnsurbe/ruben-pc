@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial';
+    background-color: black;
+    background: black;
+}
+header{
+    background-color: rgb(77, 73, 73);
+}
+a{
+    color: white;
+}
+#tit{
+    text-align: center;
+    color: white; 
+    font-family: Arial black;
+}
+#tit1{
+    color: red; 
+    font-family: Arial black;
+}
+#tit4{
+    text-align: center;
+    color: rgb(48, 47, 47); 
+    font-family: Arial black;
+}
+#bloque{
+    margin-left: 25%;
+    text-align: center;
+}
+
+#inicio{
+    border: solid 1px white;
+    padding-left: 10px;
+    float: left;
+    width: 20%;
+}
+#inicio img{
+    width: 20%;
+}
+#ferrari,#lambo,#porsche{
+    border: solid 1px white;
+    padding-left: 10px;
+    margin: 10px;
+}
+#bloque img{
+    width: 10%;
+}
+#nav {
+    list-style-type: none;
+    padding: 0;
+    grid-row: 1;
+    grid-column: 2;
+    height: 50px;
+}
+#nav1 {
+    float: left ;
+    width: 130px;
+}
+#nav2 {
+    float: left;
+    width: 130px;
+}
+#nav3{
+    float: left;
+    width: 130px;
+} 
+#nav1 a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ccc;
+    background-color: #3b3b3b;
+    border: 0.5px solid black;
+}
+#nav2 a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ccc;
+    background-color: #3b3b3b;
+    border: 0.5px solid black;
+}
+#nav3 a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #ccc;
+    background-color: #3b3b3b;
+    border: 0.5px solid black;
+}
+#nav1 a:hover {
+    background-color: BLACK;
+}
+#nav2 a:hover {
+    background-color: BLACK;
+}
+#nav3 a:hover {
+    background-color: BLACK;
+}
+footer{
+    position: relative;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width: 700px) {
+    body{
+        font-size: small;
+    }
+    #nav{
+        height: auto;
+    }
+    #nav1,#nav2,#nav3 {
+        width: 100%;
+        text-align: center;
+    }
+    #inicio{
+        margin-left: 10px;
+        grid-column: 1;
+        width: 95%;
+        grid-row: 1;
+    }
+    #todo{
+        margin: 0;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    #bloque{
+        margin: 0;
+    }
+    #ferrari{
+        margin-right: 0;
+        width: 95%;
+    }
+    #lambo{
+        width: 95%;
+    }
+    #porsche{
+        width: 95%;
+    }
+    footer{
+        width: 100%;
+    }
+    ul{
+        display: grid;
+        overflow: hidden;
+    }
+}
